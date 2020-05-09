@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Project intended to demonstrate basic HTML, CSS (SASS) code -->
+
+<style>
+#image {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+#img-div{
+    justify-content: center;
+    padding: 20px 30px 20px 30px ;
+}
+body{
+    padding: 20px;
+    background-color: #F4DFEE;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+}
+
+header{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding: 20px 20px 20px 20px ;
+    justify-content: center;
+    background-color: #F9E5F1;
+    margin: auto;
+    z-index: 3;
+}
+main{
+    margin: auto;
+    text-align: center;
+}
+#2ndbackground {
+    background-color: #FBE8FA;
+    z-index: 2;
+}
+</style>
+
+<head>
+    <link href="css/styles.css" rel="stylesheet">
+    <title id="title">Norah Jones</title>
+</head>
+
+<body id="main">
+    <div id="2ndbackground">
+        <header>
+            <h1>Norah Jones Tribute Page</h1>
+            <p id="tribute-info">Jazz Singer, songwriter, pianist</p>
+            <div id="img-div">
+                <img src="img/Shankar.jpg" alt="Norah Jones" id="image">
+                <figcaption id="img-caption">Jones in 2007</figcaption>
+            </div>
+        </header>
+
+        <main>
+            <h2>Key points in Jones' musical career:</h2>
+            <ul>
+                <li><strong>2000</strong><p> - The Peter Malick Group Session, New York City. </p></li>
+                <li><strong>2001–2003</strong><p> - First Sessions and Come Away with Me</p></li>
+                <li><strong>2004–2006</strong><p> - Feels Like Home and collaboration with Ray Charles</p></li>
+                <li><strong>2007–2008</strong><p> - Not Too Late and film debut</p></li>
+                <li><strong>2009–2011</strong><p> - The Fall and ...Featuring </p></li>
+                <li><strong>2012–2015</strong><p> - Little Broken Hearts</p></li>
+                <li><strong>2016–present</strong><p> - Day Breaks</p></li>
+
+            </ul>
+
+            <p style="max-width: 20%; text-align: center;"><i> She has won multiple awards and has sold more than 50 million records worldwide.[7] Billboard named her the top jazz artist of the 2000s decade. She has won nine Grammy Awards and was ranked 60th on Billboard magazine's artists of the 2000s decade chart.</i></p>
+        </main>
+
+        <footer>
+            <p><strong>For more detailed information about this artist you can check out her own <a href="https://en.wikipedia.org/wiki/Norah_Jones" id="tribute-link" target="_blank">Wikipedia entry</a> dedicated to her</strong></p>
+        </footer>
+    </div>
+</body>
+
+</html>
